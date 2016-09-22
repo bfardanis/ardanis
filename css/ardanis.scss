@@ -82,7 +82,7 @@ body {
 }
 
 .navbar-default .nav > li > a.active {
-  background-color: $secondary-color;
+  background-color: $secondary-color;  
 }
 
 body header.cars-in-tunnel {
@@ -400,14 +400,12 @@ ul.list-social-icons li:hover a i {
   background-color: $off-white;  
   color: $teriary-color;
   opacity: 0.9;
-  //font-weight: bold;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand {
   background-color: $off-white;  
   color: $secondary-color;    
   opacity: 0.9;
-  //font-weight: bold;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -416,9 +414,9 @@ ul.list-social-icons li:hover a i {
 .navbar-default.affix .navbar-header .navbar-brand:hover,
 .navbar-default.affix .navbar-header .navbar-brand:focus {
   background-color: $off-white;  
-  color: $teriary-color;
+  //color: $teriary-color;
+  color: $secondary-color;    
   opacity: 0.9;
-  //font-weight: bold;
 }
 
 .navbar-default.affix .nav > li > a,
@@ -428,12 +426,27 @@ ul.list-social-icons li:hover a i {
   opacity: 0.9;
   font-weight: bold;
 }
+
 .navbar-default.affix .nav > li > a:hover,
 .navbar-default.affix .nav > li > a:focus:hover {
-  background-color: $off-white;  
-  color: $teriary-color;
-  opacity: 0.9;
-  font-weight: bold;
+  //background-color: $off-white;  
+  //color: $teriary-color;
+  //font-weight: bold;
+
+  background-color: $secondary-color;  
+  color: white;
+  font-weight: normal;
+
+  opacity: 0.9;  
+}
+
+.navbar-default.affix .nav > li > a.active {
+  //color: $teriary-color;
+
+  background-color: $secondary-color;  
+  color: white;
+
+  font-weight: normal;
 }
 
   header {
